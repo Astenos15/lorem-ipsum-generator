@@ -1,0 +1,14 @@
+body {
+  font-family: "Inter", system-ui;
+}
+.heading-primary {
+  font-size: 6.4rem;
+  font-weight: 300;
+
+  @include respond(tab-land) {
+    font-size: 3.2rem;
+  }
+}
+.text {
+  font-size: 1.6rem;
+}
